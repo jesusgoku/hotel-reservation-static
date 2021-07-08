@@ -27,6 +27,18 @@ function HotelList() {
       {filteredHotels.map((hotel) => (
         <HotelItem key={hotel.id} hotel={hotel} className="HotelList__Item" />
       ))}
+
+      {filteredHotels.length === 0 && (
+        <div className="HotelList__Message">
+          <p>
+            <span className="fa-stack fa-2x">
+              <i className="fa fa-filter fa-stack-1x"></i>
+              <i className="fa fa-ban fa-stack-2x"></i>
+            </span>
+          </p>
+          <p>No hay hoteles que coincidan con tus criterios de búsqueda.</p>
+        </div>
+      )}
     </div>
   );
 }

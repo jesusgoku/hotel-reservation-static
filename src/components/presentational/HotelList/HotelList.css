@@ -1,4 +1,6 @@
 .HotelList {
+  margin-top: 20px;
+
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -9,6 +11,18 @@
 .HotelList__Item {
   flex: 0 0 auto;
   width: 95%;
+}
+
+.HotelList__Message {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
 }
 
 /* sm */
