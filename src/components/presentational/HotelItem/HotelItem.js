@@ -27,6 +27,11 @@ function HotelItem({ hotel, className, ...props }) {
         {hotel.rooms} habitaciones
       </p>
       <p className="HotelItem__Price label">{getPriceRange(hotel.price)}</p>
+      <p className="HotelItem__Reserve">
+        <button type="Button" className="btn btn-primary btn-block">
+          Reservar
+        </button>
+      </p>
     </div>
   );
 }
