@@ -1,0 +1,41 @@
+.HotelList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.HotelList__Item {
+  flex: 0 0 auto;
+  width: 98%;
+}
+
+/* sm */
+@media screen and (min-width: 576px) {
+  .HotelList__Item {
+    width: 45%;
+  }
+}
+
+/* md */
+@media screen and (min-width: 768px) {
+}
+
+/* lg */
+@media screen and (min-width: 992px) {
+  .HotelList__Item {
+    width: 45%;
+  }
+}
+
+/* xl */
+@media screen and (min-width: 1200px) {
+  .HotelList__Item {
+    width: 31%;
+  }
+}
+
+/* xxl */
+@media screen and (min-width: 1400px) {
+}

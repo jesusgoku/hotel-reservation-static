@@ -1,0 +1,8 @@
+.HotelItem {
+  padding: 10px;
+}
+
+.HotelItem__Image {
+  width: 100%;
+  height: auto;
+}

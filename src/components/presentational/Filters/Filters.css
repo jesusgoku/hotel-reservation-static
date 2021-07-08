@@ -1,0 +1,34 @@
+.Filters {
+  background-color: dodgerblue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Filters__Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Filters__Control {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .Filters__Container {
+    flex-wrap: nowrap;
+  }
+
+  .Filters__Control {
+    flex: 1 1 auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+}
