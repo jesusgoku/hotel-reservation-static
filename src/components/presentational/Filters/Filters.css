@@ -1,6 +1,6 @@
 .Filters {
-  background-color: dodgerblue;
-  color: white;
+  background-color: var(--blue);
+  color: var(--white);
   padding-top: 10px;
   padding-bottom: 10px;
 }

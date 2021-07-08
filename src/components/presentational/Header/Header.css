@@ -1,5 +1,5 @@
 .Header {
-  background-color: #00bb7c;
+  background-color: var(--green);
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;

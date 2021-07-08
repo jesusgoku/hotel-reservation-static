@@ -5,6 +5,11 @@
   --bp-lg: 992px;
   --bp-xl: 1200px;
   --bp-xxl: 1400px;
+
+  --green: #00bb7c;
+  --blue: dodgerblue;
+  --white: white;
+  --black: #212529;
 }
 
 body {
@@ -35,8 +40,8 @@ code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: var(--black);
+  background-color: var(--white);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
@@ -55,8 +60,8 @@ code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: var(--black);
+  background-color: var(--white);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
@@ -77,8 +82,8 @@ code {
   line-height: 1.5rem;
   min-height: 1.5rem;
   min-width: 1rem;
-  background-color: dodgerblue;
-  color: white;
+  background-color: var(--blue);
+  color: var(--white);
   font-weight: 900;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
